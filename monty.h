@@ -40,8 +40,7 @@ typedef struct stack_s
 typedef struct globals
 {
 	int lifo;
-	unsigned it cont;
-
+	unsigned int cont;
 	char  *arg;
 	stack_t *head;
 	FILE *fd;
